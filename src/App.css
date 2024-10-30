@@ -1,0 +1,50 @@
+.App {
+  height: 100vh;
+  /* padding-top: 10px; */
+  background-color: #1b1b32;
+  font-family: Lato, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo-encabezado {
+  /* width: 100%; */
+  height: 300px;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-calculadora {
+  width: 400px;
+  height: 650px;
+  padding: 14px;
+  background-color: #000000;
+  border-radius: 20px;
+  border: 2px solid #39a900;
+}
+
+.fila {
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-historial {
+  width: 200px;
+  height: 500px;
+  padding: 14px;
+  color: white;
+  background-color: #000000;
+  border-radius: 20px;
+  border: 2px solid #39a900;
+  margin-left: 50px;
+}
+
+.contenedor-historial h2 {
+  margin-left: 20px;
+}
